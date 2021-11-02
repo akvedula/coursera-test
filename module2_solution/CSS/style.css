@@ -6,6 +6,9 @@ h1 {
     text-align: center;
     color: brown;
 }
+h2 {
+    margin: 2.5%;
+}
 section {
     background-color: firebrick;
     border: 1px solid black;
@@ -16,7 +19,7 @@ section {
 }
 div{
     border: 1px solid black;
-    width:30%;
+    width: 30%;
     margin-left: auto;
     margin-right: 0;
     text-align: center; 
@@ -34,7 +37,7 @@ div{
     color: black;
 }
 p {
-    margin: 10px;
+    margin: 5%;
 }
 
 @media (max-width: 768px){
@@ -45,8 +48,8 @@ p {
 }
 @media (min-width: 768px) and (max-width: 991px){
     #sec_3 {
-        width: 97%;
         margin: 0.5%;
+        width: 97%;
     }
     #sec_2 {
         width: 48%;
@@ -57,3 +60,4 @@ p {
         margin: 0.5%;
     }
 }
+
