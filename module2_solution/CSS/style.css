@@ -1,0 +1,59 @@
+body {
+    font-family: cursive;
+    background-color: snow;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+section {
+    background-color: firebrick;
+    border: 1px solid black;
+    color: snow;
+    width: 32%;
+    float: left;
+    margin: 0.5%;
+}
+div{
+    border: 1px solid black;
+    width:30%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center; 
+}
+#Chicken {
+    background-color: bisque;
+    color: black;
+}
+#Beef {
+    background-color: burlywood;
+    color: black;
+}
+#Sushi {
+    background-color: azure;
+    color: black;
+}
+p {
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    section {
+        width: 95%;
+        margin: 0.5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #sec_3 {
+        width: 97%;
+        margin: 0.5%;
+    }
+    #sec_2 {
+        width: 48%;
+        margin: 0.5%;
+    }
+    #sec_1 {
+        width: 48%;
+        margin: 0.5%;
+    }
+}
