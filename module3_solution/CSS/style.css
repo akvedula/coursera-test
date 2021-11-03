@@ -1,1 +1,113 @@
+body {
+    font-family: cursive;
+    background-color: snow;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+h2 {
+    margin: 2.5%;
+}
+section {
+    background-color: firebrick;
+    border: 1px solid black;
+    color: snow;
+    width: 96%;
+    float: left;
+    margin: 0.5%;
+}
+div{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+#Chicken {
+    background-color: firebrick;
+    color: snow;
+}
+#Beef {
+    background-color: firebrick;
+    color: snow;
+}
+#Sushi {
+    background-color: firebrick;
+    color: snow;
+}
+p {
+    margin: 5%;
+}
+#header-nav{
+    background-color: gold;
+    color: brown;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand h1 { /* Restaurant name */
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: auto;
+    line-height: .75;
+}
+#nav-list{
+    margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+.navbar-header button.navbar-toggle {
+    clear: both;
+  }
+#collapsable-nav{
+    font-size: 100%;
+}
+
+
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 2em;
+        margin-right: 5px;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .menu-item-description {
+        text-align: center;;
+    }
+
+}
+
+
 
